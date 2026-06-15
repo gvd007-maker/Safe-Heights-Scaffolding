@@ -99,7 +99,7 @@
         /* ===== Brand Header Area ===== */
         .brand-header-block {
             background: #ffffff;
-            padding: 15px 0;
+            padding: 5px 0;
             border-bottom: 1px solid var(--line);
             text-align: center;
         }
@@ -108,10 +108,10 @@
             display: block;
             margin: 0 auto;
             width: 100%;
-            max-width: 480px; 
-            height: 145px;      
+            max-width: 520px; 
+            height: 180px; /* Increased height to give the text breathing room */     
             object-fit: cover;  
-            object-position: top center; /* Prevents the yellow hard hat from being cropped */
+            object-position: center 74%; /* Shifts image up precisely to hide the black top bar and show the text */
         }
 
         /* ===== Navigation Bar ===== */
@@ -708,8 +708,9 @@
 
         @media (max-width: 600px) {
             .big-main-logo {
-                height: 110px; /* Scales down layout safely on mobile viewports */
-                max-width: 320px;
+                height: 130px; /* Adapts size seamlessly on mobile viewports */
+                max-width: 340px;
+                object-position: center 72%;
             }
             
             .nav {
