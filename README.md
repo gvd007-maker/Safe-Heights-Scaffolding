@@ -1,2 +1,2 @@
-# Safe-Heights-Scaffolding
+# SafeHeights-Scaffolding
 Website for scaffolding services
